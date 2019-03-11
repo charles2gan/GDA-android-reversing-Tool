@@ -11,21 +11,21 @@ Interactive operation:
  	...
   
 Practical Tools for Assisted Analysis:
-  	1.packers Recognition;
- 	2.extracting DEX from ODEX;
- 	3.extracting DEX from OAT;
-	4.XML Decoder;
-	5.algorithm tool;
-	6.device memory dump;
+ 	1.extracting DEX from ODEX;
+ 	2.extracting DEX from OAT;
+	3.XML Decoder;
+	4.algorithm tool;
+	5.device memory dump;
 	...
     
 New features:
-	1.Multi-DEX supporting;
-	2.API view,enable to x-ref;
-	3.Malicious Behavior Scanning by API chains;
-	4.taint anlysis to preview the behavior of variables;
-	5.taint anlysis to trace the path of varibales;
-	6.de-obfuscate;
+	1.packers Recognition;
+	2.Multi-DEX supporting;
+	3.API view,enable to x-ref;
+	4.Malicious Behavior Scanning by API chains;
+	5.taint anlysis to preview the behavior of variables;
+	6.taint anlysis to trace the path of varibales;
+	7.de-obfuscate;
 	...
 ```  
 # Installing
