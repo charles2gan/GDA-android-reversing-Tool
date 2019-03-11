@@ -1,6 +1,36 @@
+# GDA(GJoy Dex Analysizer)
+
 GDA is a new decompiler written entirely in c++. so it does not rely on the Java platform, which is succinct, portable and fast, and supports APK, DEX, ODEX, oat files.
+Interactive operation:
+  1.X-references for strings, methods and field;
+  2.searching for strings, methods and field;
+  3.comments for java code;
+  4.modification the name of methods,field and class;
+  5.saving the analysis results in gda db file.
+  
+Practical Tools for Assisted Analysis:
+  1.packers Recognition
+  2.extracting DEX from ODEX
+  3.extracting DEX from OAT
+  4.XML Decoder
+  5.algorithm tool
+  6.device memory dump
+    ...
+essential new features
+  1.API view,enable to x-ref
+  2.Malicious Behavior Scanning by API chains
+  3.taint anlysis to preview the behavior of variables
+  4.taint anlysis to trace the path of varibales
+  5.taint anlysis to source the varibales
+  6.de-obfuscate
+    ...
+    
+# Installing
+not yet, just double-click the bin and you can enjoy it.
 
-A Practical Tool for Assisted Analysis
-It provides many useful sub-tools, such as check shell(protection software), ODEX to DEX, Oat to DEX, XML binary parser, algorithm tool, Android device memory dump and so on. In the interactive analysis, provides a string, method, and domain cross-references query, function query, the caller query, comments, and analysis results saving, and so on. I rewrote all Decompiler code basing on Decompiling theory for GDA3, And the disassembly engine, data flow analysis, interlingua optimization, structured analysis and so on, they have all made significant changes. And I also optimized the DEX parsing engine, malicious behavior detection engine, checking shell engine, compared with GDA1 and GDA2, The speed, stability, and experience of the analysis are all great improvement and upgrading.
+# Supported platforms
+Only for windows
 
-more detail:https://github.com/charles2gan/GDA-android-reversing-Tool/wiki
+usage:
+
+https://github.com/charles2gan/GDA-android-reversing-Tool/wiki
