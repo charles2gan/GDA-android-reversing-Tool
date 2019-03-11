@@ -31,6 +31,6 @@ not yet, just double-click the bin and you can enjoy it.
 # Supported platforms
 Only for windows
 
-usage:
+# Usage:
 
 https://github.com/charles2gan/GDA-android-reversing-Tool/wiki
