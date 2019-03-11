@@ -20,10 +20,11 @@ Practical Tools for Assisted Analysis:
 	...
     
 New features:
-	1.API view,enable to x-ref;
-	2.Malicious Behavior Scanning by API chains;
-	3.taint anlysis to preview the behavior of variables;
-	4.taint anlysis to trace the path of varibales;
+	1.Multi-DEX supporting;
+	2.API view,enable to x-ref;
+	3.Malicious Behavior Scanning by API chains;
+	4.taint anlysis to preview the behavior of variables;
+	5.taint anlysis to trace the path of varibales;
 	6.de-obfuscate;
 	...
 ```  
