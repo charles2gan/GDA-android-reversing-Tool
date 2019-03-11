@@ -3,15 +3,15 @@
 GDA is a new decompiler written entirely in c++. so it does not rely on the Java platform, which is succinct, portable and fast, and supports APK, DEX, ODEX, oat files.
 ```
 Interactive operation:
-  1.X-references for strings, methods and field;
-  2.searching for strings, methods and field;
-  3.comments for java code;
-  4.modification the name of methods,field and class;
-  5.saving the analysis results in gda db file.
+  	1.X-references for strings, methods and field;
+  	2.searching for strings, methods and field;
+  	3.comments for java code;
+  	4.modification the name of methods,field and class;
+  	5.saving the analysis results in gda db file.
  	...
   
 Practical Tools for Assisted Analysis:
-  1.packers Recognition;
+  	1.packers Recognition;
  	2.extracting DEX from ODEX;
  	3.extracting DEX from OAT;
 	4.XML Decoder;
