@@ -1,7 +1,7 @@
 # GDA(GJoy Dex Analysizer)
 
 GDA is a new decompiler written entirely in c++. so it does not rely on the Java platform, which is succinct, portable and fast, and supports APK, DEX, ODEX, oat files.
-
+```
 Interactive operation:
   1.X-references for strings, methods and field;
   2.searching for strings, methods and field;
@@ -26,7 +26,7 @@ New features:
 	4.taint anlysis to trace the path of varibales;
 	6.de-obfuscate;
 	...
-  
+```  
 # Installing
   not yet, just double-click the bin and you can enjoy it.
 
