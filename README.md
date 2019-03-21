@@ -19,13 +19,15 @@ Practical Tools for Assisted Analysis:
 	...
     
 New features:
-	1.packers Recognition;
-	2.Multi-DEX supporting;
-	3.API view,enable to x-ref;
-	4.Malicious Behavior Scanning by API chains;
-	5.taint anlysis to preview the behavior of variables;
-	6.taint anlysis to trace the path of varibales;
-	7.de-obfuscate;
+	1.Brand new daviki decompiler in c++;
+	2.Association of permissions with modules;
+	3.packers Recognition;
+	4.Multi-DEX supporting;
+	5.API view with x-ref;
+	6.Malicious Behavior Scanning by API chains;
+	7.taint anlysis to preview the behavior of variables;
+	8.taint anlysis to trace the path of varibales;
+	9.de-obfuscate;
 	...
 ```  
 # Installing
