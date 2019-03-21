@@ -19,7 +19,7 @@ Practical Tools for Assisted Analysis:
 	...
     
 New features:
-	1.Brand new daviki decompiler in c++;
+	1.Brand new daviki decompiler in c++ with friendly GUI;
 	2.Suport python script
 	3.packers Recognition;
 	4.Multi-DEX supporting;
