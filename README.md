@@ -20,14 +20,16 @@ Practical Tools for Assisted Analysis:
     
 New features:
 	1.Brand new daviki decompiler in c++;
-	2.Association of permissions with modules;
+	2.Suport python script
 	3.packers Recognition;
 	4.Multi-DEX supporting;
-	5.API view with x-ref;
+	5.making and loading signature of method 
 	6.Malicious Behavior Scanning by API chains;
 	7.taint anlysis to preview the behavior of variables;
 	8.taint anlysis to trace the path of varibales;
 	9.de-obfuscate;
+	10.API view with x-ref;
+	11.Association of permissions with modules;
 	...
 ```  
 # Installing
