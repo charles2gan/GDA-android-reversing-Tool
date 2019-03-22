@@ -1,0 +1,46 @@
+The majority of GDA is written and copyrighted by charles2gan(gjden/GAN JIE)
+and released under the Apache 2.0 license (see LICENSE file for full license text):
+The majority of jadx is written and copyrighted by me (Skylot)
+and released under the Apache 2.0 license (see LICENSE file for full license text):
+
+*******************************************************************************
+Copyright 2019, charles2gan(gjden/GAN JIE)
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+*******************************************************************************
+
+
+The software including adb binary files are taken from
+the Android sdk, and dex librarys are taken from the Android Open Source Project, 
+and are used in accordance with the following license:
+*******************************************************************************
+
+Copyright (C) 2007 The Android Open Source Project
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+*******************************************************************************
+
+Icons copied from several places:
+ - Eclipse Project (JDT UI) - licensed under EPL v1.0 (http://www.eclipse.org/legal/epl-v10.html)
+ 
