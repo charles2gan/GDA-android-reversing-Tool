@@ -41,3 +41,4 @@ New features:
 # Usage:
 
   https://github.com/charles2gan/GDA-android-reversing-Tool/wiki
+  https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA-Python-scripts
