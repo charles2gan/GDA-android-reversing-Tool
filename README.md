@@ -40,7 +40,7 @@ New features:
 
 |shortcut    |description|
 |:-|:-|
-|X    |Cross-referencing, locating callers (of strings, classes, methods, field, Smali, Java)|
+|X    |Cross-referencing, locating callers (of strings, classes, methods, field)|
 |Esc/<-/Backspace    |Back to the last visit|
 |->    |Go to the next accessed View|
 |G    |Jump to the specified offset address|
