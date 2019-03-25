@@ -1,5 +1,8 @@
 # GDA(GJoy Dex Analysizer)
 
+
+![](https://github.com/charles2gan/GDA-android-reversing-Tool/blob/master/GDA_PIC/3_entry_x-ref.png)
+
 GDA is a new decompiler written entirely in c++. so it does not rely on the Java platform, which is succinct, portable and fast, and supports APK, DEX, ODEX, oat files.
 ```
 Interactive operation:
