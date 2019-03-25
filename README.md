@@ -2,8 +2,8 @@
 
 
 
+Most reverse engineers mainly use Java decompiler, commercial dalvik decompiler Jeb and smali2java to do decompilation analysis. Java decompiler is based on Java bytecode, including JD, JD-GUI, jadx, and others. smali2java is a decompiler based on Smali code. They have their own shortcomings, for example, Java decompiler needs to use dex2jar to convert first. For complex, confused or packed apks, there will be conversion failure, which will lead to no decompilation; while smali2java needs to convert APK into Smali code with apktool, and then decompile, which increases the difficulty and error rate, and decreases the speed of manual analysis. In addition, the interaction between these two types of decompilers is poor, which increases the difficulty of manual analysis. Although the commercial Jeb has better interactivity, it is easy to death when analyzing large-sized APP with the multidex-based APP, and it is very expensive... Here, a new decompiler based on Dalvik bytecode, GDA, is proposed and implemented in C++ language to provide more sophisticated, fast and convenient decompilation support. GDA is completely self-independent. It supports APK, DEX, ODEX, oat files, and run without installation and Java VM support. GDA only takes up 2M of your disk space, and you can use it in any newly installed windows system and virtual machine system. In addition, GDA has more features as follows:
 
-GDA is a new decompiler written entirely in c++. so it does not rely on the Java platform, which is succinct, portable and fast, and supports APK, DEX, ODEX, oat files.
 
 ![](https://github.com/charles2gan/GDA-android-reversing-Tool/blob/master/GDA_PIC/3_entry_x-ref.png)
 
