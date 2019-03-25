@@ -32,6 +32,34 @@ New features:
 	11.Association of permissions with modules;
 	...
 ```  
+
+`GDA shortcut key`
+
+|shortcut    |description|
+|:-|:-|
+|X    |Cross-referencing, locating callers (of strings, classes, methods, field, Smali, Java)|
+|Esc/<-/Backspace    |Back to the last visit|
+|->    |Go to the next accessed View|
+|G    |Jump to the specified offset address|
+|N    |The cursor's placed at the variable/method/class name, and which can be modified|
+|S    |Global Searching for all the elements|
+|C    |Comments，only supports the Java code|
+|DoubleClick    |The cursor's placed at the method/str/field/class, double-click to access objects|
+|M    |the cursor's placed at the Smali line and pressing M, and edit the instruction|
+|UP    |Press “up” key to access the previous method in the tree control|
+|Down    |Press “down” key to access the next method in the tree control|
+|D    |Dump the binary data of methods, only supports the Smali window|
+|Enter     |The modification of edit boxes will take effect|
+|H    |Show data in Hex|
+|Ctr+H    |pop searching history|
+|Ctr+A    |Select all|
+|Ctr+C    |copy|
+|Ctr+V    |Paste, only for editable boxes|
+|Ctr+X    |cut|
+|Ctr+F    |locating the string of the current window|
+|Ctr+S    |Save the current modification into the GDA database file|
+
+
 # Installing
   not yet, just double-click the bin and you can enjoy it.
 
