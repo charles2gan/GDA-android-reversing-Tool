@@ -47,6 +47,7 @@ New features:
 
 |shortcut    |description|
 |:-|:-|
+|F5	  |Switch the java to smali , pressing again and back to java|
 |X    |Cross-referencing, locating callers (of strings, classes, methods, field)|
 |Esc/<-/Backspace    |Back to the last visit|
 |->    |Go to the next accessed View|
