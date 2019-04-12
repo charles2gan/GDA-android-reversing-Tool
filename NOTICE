@@ -20,7 +20,7 @@ limitations under the License.
 
 The software including adb binary files are taken from
 the Android sdk, and dex librarys are taken from the Android Open Source Project, 
-and are used in accordance with the following license:
+and they are used in accordance with the following license:
 *******************************************************************************
 
 Copyright (C) 2007 The Android Open Source Project
@@ -39,6 +39,9 @@ limitations under the License.
 
 *******************************************************************************
 
+openssl lib are taken from openssl :
+used in accordance with the following license:
+ - Openssl - licensed under the Apache License 2.0 
 Icons copied from several places:
  - Eclipse Project (JDT UI) - licensed under EPL v1.0 (http://www.eclipse.org/legal/epl-v10.html)
  
