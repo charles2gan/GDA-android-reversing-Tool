@@ -46,29 +46,29 @@ New features:
 `GDA shortcut key`
 
 |shortcut    |description|
-|:-|:-|
-|F5	  |Switch the java to smali , pressing again and back to java|
-|X    |Cross-referencing, locating callers (of strings, classes, methods, field)|
+|F5   |Switch java to smali, pressing it again for back to java|
+|F    |Trace the args and return value by dataflow analysis|
+|X    |Cross-referencing, locating callers (of strings, classes, methods, field, Smali, Java)|
 |Esc/<-/Backspace    |Back to the last visit|
-|->    |Go to the next accessed View|
-|G    |Jump to the specified offset address|
-|N    |The cursor's placed at the variable/method/class name, and which can be modified|
-|S    |Global Searching for all the elements|
-|C    |Comments，only supports the Java code|
-|DoubleClick    |The cursor's placed at the method/str/field/class, double-click to access objects|
-|M    |the cursor's placed at the Smali line and pressing M, and edit the instruction|
-|UP    |Press “up” key to access the previous method in the tree control|
-|Down    |Press “down” key to access the next method in the tree control|
+|->    |Go to the next visit|
+|G    |Jump to somewhere by you inputting offset |
+|N    |Rename the variable/method/class name|
+|S    |Search for all the elements by the given string|
+|C    |Comments. Only supports the Java code|
+|DoubleClick    |The cursor's placed at the method/str/field/class, and double-click to access objects|
+|M    |the cursor's placed at the Smali line and pressing 'M' to edit the instruction|
+|UP    |Press 'up' key to access the up-method in the tree control|
+|Down    |Press “down” key to access the down-method in the tree control|
 |D    |Dump the binary data of methods, only supports the Smali window|
-|Enter     |The modification of edit boxes will take effect|
+|Enter     |The modification of edit boxes take effect|
 |H    |Show data in Hex|
-|Ctr+H    |pop searching history|
+|Ctr+H    |Pop searching history window|
 |Ctr+A    |Select all|
-|Ctr+C    |copy|
+|Ctr+C    |Copy|
 |Ctr+V    |Paste, only for editable boxes|
-|Ctr+X    |cut|
-|Ctr+F    |locating the string of the current window|
-|Ctr+S    |Save the current modification into the GDA database file|
+|Ctr+X    |Cut|
+|Ctr+F    |Find out the string of the current window|
+|Ctr+S    |Save the modifications into the GDA database file|
 
 
 # Installing
