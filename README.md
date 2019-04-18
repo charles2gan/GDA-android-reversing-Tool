@@ -44,19 +44,18 @@ New features:
 
 
 `GDA shortcut key`
-
-|shortcut    |description|
+|:-|:-|
 |F5   |Switch java to smali, pressing it again for back to java|
 |F    |Trace the args and return value by dataflow analysis|
 |X    |Cross-referencing, locating callers (of strings, classes, methods, field, Smali, Java)|
 |Esc/<-/Backspace    |Back to the last visit|
-|->    |Go to the next visit|
+|->    |Forward to the next visit|
 |G    |Jump to somewhere by you inputting offset |
 |N    |Rename the variable/method/class name|
 |S    |Search for all the elements by the given string|
 |C    |Comments. Only supports the Java code|
 |DoubleClick    |The cursor's placed at the method/str/field/class, and double-click to access objects|
-|M    |the cursor's placed at the Smali line and pressing 'M' to edit the instruction|
+|M    |the cursor's placed at the Smali line and pressing the key 'M' to edit the instruction|
 |UP    |Press 'up' key to access the up-method in the tree control|
 |Down    |Press “down” key to access the down-method in the tree control|
 |D    |Dump the binary data of methods, only supports the Smali window|
