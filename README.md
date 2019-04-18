@@ -44,6 +44,8 @@ New features:
 
 
 `GDA shortcut key`
+
+|shortcut    |description|
 |:-|:-|
 |F5   |Switch java to smali, pressing it again for back to java|
 |F    |Trace the args and return value by dataflow analysis|
