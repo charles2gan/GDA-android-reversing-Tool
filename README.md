@@ -84,8 +84,18 @@ New features:
   
   python script:https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA-Python-scripts
   
+# Shows:
   
+  File loading and decompiling:
   
+  ![](https://github.com/charles2gan/GDA-android-reversing-Tool/blob/master/gif/load.gif)
   
+  MalScan, API search, x-ref...
+  
+  ![](https://github.com/charles2gan/GDA-android-reversing-Tool/blob/master/gif/check.gif)
+  
+  Url,Xml,string x-ref...
+
+  ![](https://github.com/charles2gan/GDA-android-reversing-Tool/blob/master/gif/mainfest.gif)
   
   
