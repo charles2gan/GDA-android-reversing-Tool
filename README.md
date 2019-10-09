@@ -19,7 +19,7 @@ Interactive operation:
     5.save the analysis results in gda db file.
     ...
   
-Practical Tools for Assisted Analysis:
+Utilities for Assisted Analysis:
     1.extracting DEX from ODEX;
     2.extracting DEX from OAT;
     3.XML Decoder;
