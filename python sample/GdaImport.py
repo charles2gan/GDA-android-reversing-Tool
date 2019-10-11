@@ -73,6 +73,7 @@ class ClassInfo:
         superclassIdx = 0           #the parent class index
         classCode = ""              #class code without method code
         subClassList = []           #subClass List
+        
 #  Gda-Dex interface Class
 #          
 class GdaDex:
@@ -108,6 +109,7 @@ class GDAInterface:
         self.WriteBinaryToDex_= CALLFUNC_IIPII(InterfaceDic['WriteBinaryToDex'])
         self.DumpBin_= CALLFUNC_IPIII(InterfaceDic['DumpBin']) 
         self.GetMethodDeclare_= CALLFUNC_PII(InterfaceDic['GetMethodDeclare']) 
+        self.GetClassCodeById_Ex_= CALLFUNC_PII(InterfaceDic['GetClassCodeById_Ex']) 
         self.DexList=[]    # GdaDex List,for supporting multi-Dex,will be setup by GDA       
         
     # return the strings used by all methods, dexId is the index of GdaDex,
@@ -141,10 +143,13 @@ class GDAInterface:
     # getting the chass code by class index    
     def GetClassCodeById(self,idx,dexId=0):
         return self.GetClassCodeById_(idx,dexId)
-    # getting the smali code by method index    
+    # getting the class code(all the methods of a class) by class index   
+    def GetClassCodeById_Ex(self,idx,dexId=0):
+        return self.GetClassCodeById_Ex_(idx,dexId)
+    # getting the smali code for method by method index    
     def GetSmaliCodeById(self,idx,dexId=0):
         return self.GetSmaliCodeById_(idx,dexId)
-    # getting the java code by method index    
+    # getting the java code for method by method index    
     def GetJavaCodeById(self,idx,dexId=0):
         return self.GetJavaCodeById_(idx,dexId)
     # getting the all the strings like url    
