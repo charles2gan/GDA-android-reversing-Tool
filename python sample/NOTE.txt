@@ -2,4 +2,4 @@ NOTE:
 
 1. In order to be compatible with 32-bit systems, you must install a 32-bit Python 2.7-3.7 environment on your host.
 
-2. For scripting instructions, see https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA-Python-scripts
+2. For scripting introduction, see https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA-Python-scripts
