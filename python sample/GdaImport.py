@@ -11,9 +11,11 @@ CALLFUNC_PII = ctypes.CFUNCTYPE(ctypes.c_char_p,ctypes.c_int,ctypes.c_int)
 CALLFUNC_IIP = ctypes.CFUNCTYPE(ctypes.c_int,ctypes.c_int,ctypes.c_int)
 CALLFUNC_IIPI = ctypes.CFUNCTYPE(ctypes.c_int,ctypes.c_int,ctypes.c_char_p,ctypes.c_int)
 CALLFUNC_PIIII = ctypes.CFUNCTYPE(ctypes.c_char_p,ctypes.c_int,ctypes.c_int,ctypes.c_int,ctypes.c_int)
+CALLFUNC_PIIIII = ctypes.CFUNCTYPE(ctypes.c_char_p,ctypes.c_int,ctypes.c_int,ctypes.c_int,ctypes.c_int,ctypes.c_int)
 CALLFUNC_IIPI = ctypes.CFUNCTYPE(ctypes.c_int,ctypes.c_int,ctypes.c_char_p,ctypes.c_int)
 CALLFUNC_IIPII = ctypes.CFUNCTYPE(ctypes.c_int,ctypes.c_int,ctypes.c_char_p,ctypes.c_int)
 CALLFUNC_IPIII = ctypes.CFUNCTYPE(ctypes.c_int,ctypes.c_char_p,ctypes.c_int,ctypes.c_int,ctypes.c_int)
+CALLFUNC_PPII = ctypes.CFUNCTYPE(ctypes.c_char_p,ctypes.c_char_p,ctypes.c_int,ctypes.c_int)
 # Dex File Header
 class DexHeader:
     def __init__(self):
@@ -96,6 +98,7 @@ class GDAInterface:
         self.GetCert_ = CALLFUNC_P(InterfaceDic['GetCert'])
         self.GetSupicous_ = CALLFUNC_PI(InterfaceDic['GetSupicous'])
         self.GetStringById_ = CALLFUNC_PII(InterfaceDic['GetStringById'])
+        self.SetStringById_ = CALLFUNC_IIPI(InterfaceDic['SetStringById'])
         self.SetMethodName_ = CALLFUNC_IIPI(InterfaceDic['SetMethodName'])
         self.SetClassName_ = CALLFUNC_IIPI(InterfaceDic['SetClassName'])
         self.GetClassCodeById_ = CALLFUNC_PII(InterfaceDic['GetClassCodeById'])
@@ -105,11 +108,12 @@ class GDAInterface:
         self.FindClassId_ = CALLFUNC_IPI(InterfaceDic['FindClassId'])
         self.GetMethodNameById_ = CALLFUNC_PII(InterfaceDic['GetMethodNameById'])
         self.GetStringByTypeId_ = CALLFUNC_PII(InterfaceDic['GetStringByTypeId'])
-        self.DumpData_= CALLFUNC_PIIII(InterfaceDic['DumpData'])
+        self.DumpHexData_= CALLFUNC_PIIIII(InterfaceDic['DumpHexData'])
         self.WriteBinaryToDex_= CALLFUNC_IIPII(InterfaceDic['WriteBinaryToDex'])
         self.DumpBin_= CALLFUNC_IPIII(InterfaceDic['DumpBin']) 
         self.GetMethodDeclare_= CALLFUNC_PII(InterfaceDic['GetMethodDeclare']) 
         self.GetClassCodeById_Ex_= CALLFUNC_PII(InterfaceDic['GetClassCodeById_Ex']) 
+        self.DisasmBinData_= CALLFUNC_PPII(InterfaceDic['DisasmBinData'])
         self.DexList=[]    # GdaDex List,for supporting multi-Dex,will be setup by GDA       
         
     # return the strings used by all methods, dexId is the index of GdaDex,
@@ -131,6 +135,9 @@ class GDAInterface:
     # getting string by string index    
     def GetStringById(self,idx,dexId=0):
         return self.GetStringById_(idx,dexId)
+    # setting string by string index    
+    def SetStringById(self,idx,str,dexId=0):
+        return self.SetStringById_(idx,ctypes.c_char_p(str),dexId)
     # getting method name by method index    
     def GetMethodNameById(self,idx,dexId=0):
         return self.GetMethodNameById_(idx,dexId)
@@ -169,11 +176,15 @@ class GDAInterface:
         return self.DumpBin_(ctypes.c_char_p(fileName),offset,size,dexId)
     # getting the binary data of dex file by hex formation   
     # width is the bytes of a line,eg:16
-    def DumpData(self,offset,size,width=16,dexId=0):
-        return self.DumpData_(offset,size,width,dexId)  
+    # mode=0(only hex),1(with offset),2(with blank between two hex),4(with chars),7(with all of features)
+    def DumpHexData(self,offset,size,width=16,mode=7,dexId=0):
+        return self.DumpHexData_(offset,size,width,mode,dexId)  
     # write binary data into dex file, note:probaly damage the Dex File     
     def WriteBinaryToDex(self,offset,bytes,buffLen,dexId=0):
-        return self.WriteBinaryToDex_(offset,ctypes.c_char_p(bytes),buffLen,dexId)         
+        return self.WriteBinaryToDex_(offset,ctypes.c_char_p(bytes),buffLen,dexId)  
+    # write binary data into dex file, note:probaly damage the Dex File     
+    def DisasmBinData(self,data,dataLen,dexId=0):
+        return self.DisasmBinData_(ctypes.c_char_p(data),dataLen,dexId)  
         
         
         
