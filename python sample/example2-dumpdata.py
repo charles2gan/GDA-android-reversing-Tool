@@ -7,10 +7,10 @@ def GDA_MAIN(gda_obj):
     head=Dex0.DexHeader
     out="the string Ids off:\n\n"
     #dump hex data
-    out+=gda.DumpData(head.stringIdsOff,128,16)
+    out+=gda.DumpHexData(head.stringIdsOff,128,128,0)
     gda.log(out)
     #dump bin to file
-    gda.DumpBin("bin.data",head.stringIdsOff,128)
+    #gda.DumpBin("bin.data",head.stringIdsOff,128)
     #modify the dex file
     #bytes = b'\xe4\xba\xba'
     #gda.WriteBinaryToDex(0,bytes,len(bytes))
