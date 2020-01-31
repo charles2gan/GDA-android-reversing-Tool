@@ -1,6 +1,6 @@
 # GDA(GJoy Dex Analysizer)
 
-Here, a new Dalvik bytecode decompiler, GDA（this project started in 2013 and released its first version 1.0 in 2015 at www.gda.com: 9090) , is proposed and implemented in C++ to provide more sophisticated, fast and convenient decompilation support. GDA is completely self-independent and very stable. It supports APK, DEX, ODEX, oat files, and run without installation and Java VM support. GDA only takes up 2M of your disk space, and you can use it in any newly installed windows system and virtual machine system without additional configuration. In addition, GDA has more excellent features as follows:
+Here, a new Dalvik bytecode decompiler, GDA（this project started in 2013 and released its first version 1.0 in 2015 at www.gda.wiki:9090) , is proposed and implemented in C++ to provide more sophisticated, fast and convenient decompilation support. GDA is completely self-independent and very stable. It supports APK, DEX, ODEX, oat files, and run without installation and Java VM support. GDA only takes up 2M of your disk space, and you can use it in any newly installed windows system and virtual machine system without additional configuration. In addition, GDA has more excellent features as follows:
 
 
 
