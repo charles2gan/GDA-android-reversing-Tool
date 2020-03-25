@@ -9,33 +9,34 @@ Here, a new Dalvik bytecode decompiler, GDA（this project started in 2013 and r
 
 ```
 Interactive operation:
-    1.cross-references for strings, classes, methods and fields;
-    2.searching for strings, classes methods and fields;
-    3.comments for java code;
-    4.rename for methods,fields and classes;
-    5.save the analysis results in gda db file.
+    1.Cross-references for strings, classes, methods and fields;
+    2.Searching for strings, classes methods and fields;
+    3.Comments for java code;
+    4.Rename for methods,fields and classes;
+    5.Save the analysis results in gda db file.
     ...
   
 Utilities for Assisted Analysis:
-    1.extracting DEX from ODEX;
-    2.extracting DEX from OAT;
-    3.XML Decoder;
-    4.algorithm tool;
-    5.device memory dump;
+    1.Extracting DEX from ODEX;
+    2.Extracting DEX from OAT;
+    3.XML Decoder (Component filter);
+    4.Algorithm tool(Support rolling encryption and almost all popular encryption algorithms);
+    5.Device memory dump(Dump so, odex, dex, oat file);
     ...
     
 New features:
     1.Brand new dalvik decompiler in c++ with friendly GUI;
-    2.Support python script
-    3.packers Recognition;
+    2.Support python script and Java script;
+    3.Packers Recognition;
     4.Multi-DEX supporting;
-    5.making and loading signature of the method 
+    5.Making and loading signature of the method;
     6.Malicious Behavior Scanning by API chains;
-    7.taint analysis to preview the behavior of variables;
-    8.taint analysis to trace the path of variables;
-    9.de-obfuscate;
+    7.Taint analysis to preview the behavior of variables;
+    8.Taint analysis to trace the path of variables;
+    9.De-obfuscate;
     10.API view with x-ref;
     11.Association of permissions with modules;
+    12.Extract all the urls in APK.
     ...
 ```  
 
@@ -46,7 +47,7 @@ New features:
 |:-|:-|
 |F5   |Switch java to smali, pressing it again for back to java|
 |F    |Trace the args and return value by dataflow analysis|
-|X    |Cross-referencing, locating callers (of strings, classes, methods, field, Smali, Java)|
+|X    |Cross-referencing, locating callers (of strings, classes, methods, field)|
 |Esc/<-/Backspace    |Back to the last visit|
 |->    |Forward to the next visit|
 |G    |Jump to somewhere by you inputting offset |
@@ -70,16 +71,16 @@ New features:
 
 
 # Installing
-  not yet, just double-click the bin and you can enjoy it.
+  Not yet, just double-click the bin and you can enjoy it.
 
 # Supported platforms
   Only for windows
 
 # Usage:
 
-  brief guide: https://github.com/charles2gan/GDA-android-reversing-Tool/wiki
+  Brief guide: https://github.com/charles2gan/GDA-android-reversing-Tool/wiki
   
-  python script:https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA-Python-scripts
+  Python script:https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA-Python-scripts
   
 # Shows:
   
@@ -95,5 +96,5 @@ New features:
 
   ![](https://github.com/charles2gan/GDA-android-reversing-Tool/blob/master/gif/mainfest.gif)
   
-  variable trace
+  Variable trace
   ![](https://github.com/charles2gan/GDA-android-reversing-Tool/blob/master/gif/dataflow_return.gif)
