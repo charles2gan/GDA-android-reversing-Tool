@@ -12,7 +12,7 @@ Interactive operation:
     1.Cross-references for strings, classes, methods and fields;
     2.Searching for strings, classes methods and fields;
     3.Comments for java code;
-    4.Rename for methods,fields and classes;
+    4.Rename methods,fields and classes;
     5.Save the analysis results in gda db file.
     ...
   
@@ -46,7 +46,7 @@ New features:
 |shortcut    |description|
 |:-|:-|
 |F5   |Switch java to smali, pressing it again for back to java|
-|F    |Trace the args and return value by dataflow analysis|
+|F    |Trace the args and return-value by dataflow analysis|
 |X    |Cross-referencing, locating callers (of strings, classes, methods, field)|
 |Esc/<-/Backspace    |Back to the last visit|
 |->    |Forward to the next visit|
@@ -55,9 +55,9 @@ New features:
 |S    |Search for all the elements by the given string|
 |C    |Comments. Only supports the Java code|
 |DoubleClick    |The cursor's placed at the method/str/field/class, and double-click to access objects|
-|M    |the cursor's placed at the Smali line and pressing the key 'M' to edit the instruction|
-|UP    |Press 'up' key to access the up-method in the tree control|
-|Down    |Press “down” key to access the down-method in the tree control|
+|M    |The cursor's placed at the Smali line and pressing the key 'M' to edit the instruction|
+|UP\bigtriangleup   |Press 'up' key to access the up-method in the tree control|
+|Down\bigtriangledown   |Press 'down' key to access the down-method in the tree control|
 |D    |Dump the binary data of methods, only supports the Smali window|
 |Enter     |The modification of edit boxes take effect|
 |H    |Show data in Hex|
