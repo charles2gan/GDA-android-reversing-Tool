@@ -1,14 +1,14 @@
 
-# GDA(GJoy Dex Analysizer)
+# ☛GDA(GJoy Dex Analysizer)
 
-Here, a new Dalvik bytecode decompiler, GDA（this project started in 2013 and released its first version 1.0 in 2015 at www.gda.wiki:9090) , is proposed and implemented in C++ to provide more sophisticated, fast and convenient decompilation support. GDA is completely self-independent and very stable. It supports APK, DEX, ODEX, oat files, and run without installation and Java VM support. GDA only takes up 2M of your disk space, and you can use it in any newly installed windows system and virtual machine system without additional configuration. In addition, GDA has more excellent features as follows:
+❉ Here, a new Dalvik bytecode decompiler, GDA（this project started in 2013 and released its first version 1.0 in 2015 at www.gda.wiki:9090) , is proposed and implemented in C++ to provide more sophisticated, fast and convenient decompilation support. GDA is completely self-independent and very stable. It supports APK, DEX, ODEX, oat files, and run without installation and Java VM support. GDA only takes up 2M of your disk space, and you can use it in any newly installed windows system and virtual machine system without additional configuration. In addition, GDA has more excellent features as follows:
 
 
 ![](https://github.com/charles2gan/GDA-android-reversing-Tool/blob/master/GDA_PIC/3_entry_x-ref.png)
 
 
 ```
-Interactive operation:
+𝕬 Interactive operation:
     1.Cross-references for strings, classes, methods and fields;
     2.Searching for strings, classes methods and fields;
     3.Comments for java code;
@@ -16,7 +16,7 @@ Interactive operation:
     5.Save the analysis results in gda db file.
     ...
   
-Utilities for Assisted Analysis:
+𝕭 Utilities for Assisted Analysis:
     1.Extracting DEX from ODEX;
     2.Extracting DEX from OAT;
     3.XML Decoder (Component filter);
@@ -24,7 +24,7 @@ Utilities for Assisted Analysis:
     5.Device memory dump(Dump so, odex, dex, oat file);
     ...
     
-New features:
+𝕮 New features:
     1.Brand new dalvik decompiler in c++ with friendly GUI;
     2.Support python script and Java script;
     3.Packers Recognition;
@@ -41,7 +41,7 @@ New features:
 ```  
 
 
-`GDA shortcut key`
+`𝕲𝕯𝕬 shortcut key`
 
 |shortcut    |description|
 |:-|:-|
@@ -70,31 +70,31 @@ New features:
 |Ctr+S    |Save the modifications into the GDA database file|
 
 
-# Installing
+# ☛Installing
   Not yet, just double-click the bin and you can enjoy it.
 
-# Supported platforms
+# ☛Supported platforms
   Only for windows
 
-# Usage:
+# ☛Usage:
 
   Brief guide: https://github.com/charles2gan/GDA-android-reversing-Tool/wiki
   
   Python script:https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA-Python-scripts
   
-# Shows:
+# ☛Shows:
   
-  File loading and decompiling:
+  ✢ File loading and decompiling:
   
   ![](https://github.com/charles2gan/GDA-android-reversing-Tool/blob/master/gif/load.gif)
   
-  MalScan, API search, x-ref...
+  ✢ MalScan, API search, x-ref...
   
   ![](https://github.com/charles2gan/GDA-android-reversing-Tool/blob/master/gif/check.gif)
   
-  Url,Xml,string x-ref...
+  ✢ Url,Xml,string x-ref...
 
   ![](https://github.com/charles2gan/GDA-android-reversing-Tool/blob/master/gif/mainfest.gif)
   
-  Variable trace
+  ✢ Variable trace
   ![](https://github.com/charles2gan/GDA-android-reversing-Tool/blob/master/gif/dataflow_return.gif)
