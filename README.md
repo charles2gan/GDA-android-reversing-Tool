@@ -4,7 +4,6 @@
 Here, a new Dalvik bytecode decompiler, GDA（this project started in 2013 and released its first version 1.0 in 2015 at www.gda.wiki:9090) , is proposed and implemented in C++ to provide more sophisticated, fast and convenient decompilation support. GDA is completely self-independent and very stable. It supports APK, DEX, ODEX, oat files, and run without installation and Java VM support. GDA only takes up 2M of your disk space, and you can use it in any newly installed windows system and virtual machine system without additional configuration. In addition, GDA has more excellent features as follows:
 
 
-
 ![](https://github.com/charles2gan/GDA-android-reversing-Tool/blob/master/GDA_PIC/3_entry_x-ref.png)
 
 
@@ -49,16 +48,16 @@ New features:
 |F5   |Switch java to smali, pressing it again for back to java|
 |F    |Trace the args and return-value by dataflow analysis|
 |X    |Cross-referencing, locating callers (of strings, classes, methods, field)|
-|Esc/<-/Backspace    |Back to the last visit|
-|->    |Forward to the next visit|
+|Esc/◄/Backspace    |Back to the last visit|
+|►    |Forward to the next visit|
 |G    |Jump to somewhere by you inputting offset |
 |N    |Rename the variable/method/class name|
 |S    |Search for all the elements by the given string|
 |C    |Comments. Only supports the Java code|
 |DoubleClick    |The cursor's placed at the method/str/field/class, and double-click to access objects|
 |M    |The cursor's placed at the Smali line and pressing the key 'M' to edit the instruction|
-|UP\bigtriangleup   |Press 'up' key to access the up-method in the tree control|
-|Down\bigtriangledown   |Press 'down' key to access the down-method in the tree control|
+|▲ UP   |Press 'up' key to access the up-method in the tree control|
+|▼ Down  |Press 'down' key to access the down-method in the tree control|
 |D    |Dump the binary data of methods, only supports the Smali window|
 |Enter     |The modification of edit boxes take effect|
 |H    |Show data in Hex|
