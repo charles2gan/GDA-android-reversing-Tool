@@ -71,16 +71,23 @@ Here, a new Dalvik bytecode decompiler, GDA（this project started in 2013 and r
 
 
 # ˇ Installing
+
   Not yet, just double-click the bin and you can enjoy it.
 
 # ˇ Supported platforms
+
   Only for windows
 
 # ˇ Usage:
 
+
   Brief guide: https://github.com/charles2gan/GDA-android-reversing-Tool/wiki
   
-  Python script:https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA-Python-scripts
+  Python script: https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA-Python-scripts
+  
+  GDA static taint analysis: https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA-Static-Taint-analysis
+  
+  
   
 # ˇ Shows:
   
