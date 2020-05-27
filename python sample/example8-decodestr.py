@@ -1,6 +1,6 @@
 import GdaImport
 #gjden
-#example of decoding strings in dex
+#example of decoding strings which is located by smali code
 def printStringHex(stri): 
     ret=''
     for ch in stri:
@@ -36,6 +36,7 @@ def GDA_MAIN(gda_obj):
     for idx in clist:
         if callorTable.has_key(str(idx)):
             continue
+        #dump smali code of callors
         smalicode=gda.GetSmaliCodeById(idx)
         splitstr=smalicode.split('\r\n')
         i=0
