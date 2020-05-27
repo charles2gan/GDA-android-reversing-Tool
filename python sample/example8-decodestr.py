@@ -1,6 +1,6 @@
 import GdaImport
 #gjden
-#example of dumping the code of method or class
+#example of decoding strings in dex
 def printStringHex(stri): 
     ret=''
     for ch in stri:
