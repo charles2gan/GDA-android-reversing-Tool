@@ -84,7 +84,7 @@ In addition, GDA has more excellent features as follows:
 
 # ˇ Usage:
 
-  Drag file into GDA, if you wanna analyze jar file, please convert the jar to dex by dx which is in `/home/baina/SDK/android-sdk-linux/build-tools/{sdkversion}/`
+  Drag file into GDA, if you wanna analyze jar file, please convert the jar to dex by dx which is in `android-sdk/build-tools/{sdkversion}/`
   ```
   dx --dex --output=<target.jar> <origin.jar>
   ```
