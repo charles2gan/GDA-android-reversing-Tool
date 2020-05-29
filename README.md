@@ -84,7 +84,11 @@ In addition, GDA has more excellent features as follows:
 
 # ˇ Usage:
 
-
+  Drag file into GDA, if you wanna analyze jar file, please convert the jar to dex by dx which is in `/home/baina/SDK/android-sdk-linux/build-tools/{sdkversion}/`
+  ```
+  dx --dex --output=<target.jar> <origin.jar>
+  ```
+  
   Brief guide: https://github.com/charles2gan/GDA-android-reversing-Tool/wiki
   
   Python script: https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA-Python-scripts
