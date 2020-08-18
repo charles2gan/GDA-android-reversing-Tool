@@ -16,7 +16,7 @@ GDA is not only a decompiler, but also a powerful and fast reverse analysis plat
 In addition, GDA has more excellent features as follows:
 
 
-![](https://github.com/charles2gan/GDA-android-reversing-Tool/blob/master/GDA_PIC/3_entry_x-ref.png)
+![](https://github.com/charles2gan/GDA-android-reversing-Tool/blob/master/GDA_PIC/mainpage.png)
 
 
 ```
