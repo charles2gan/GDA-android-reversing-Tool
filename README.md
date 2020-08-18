@@ -1,11 +1,9 @@
 
-[![](https://img.shields.io/badge/website-author-brightgreen)](http://www.gda.wiki:9090)
-[![](https://img.shields.io/badge/download-pro3.75-ff69b4)](http://www.gda.wiki:9090)
-[![](https://img.shields.io/badge/Guide-Brief-orange)](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki)
-[![](https://img.shields.io/badge/Guide-Script%20Support-orange)](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA-Python-scripts)
-[![](https://img.shields.io/badge/Guide-taint%20analysis-orange)](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA-Static-Taint-analysis)
-![GitHub closed issues](https://img.shields.io/github/issues-closed/charles2gan/GDA-android-reversing-Tool)
-![GitHub Release Date](https://img.shields.io/github/release-date/charles2gan/GDA-android-reversing-Tool)
+[![image](https://img.shields.io/badge/website-author-brightgreen)](http://www.gda.wiki:9090/?language=en)
+[![image](https://img.shields.io/badge/download-pro3.75-ff69b4)](http://www.gda.wiki:9090/?language=en)
+[![image](https://img.shields.io/badge/Guide-Brief-red)](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki)
+[![image](https://img.shields.io/badge/Guide-Script%20Support-red)](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA-Python-scripts)
+[![image](https://img.shields.io/badge/Guide-taint%20analysis-red)](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA-Static-Taint-analysis)
 
 
 # ˇ GDA(GJoy Dex Analysizer)
