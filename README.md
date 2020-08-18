@@ -1,6 +1,6 @@
 
 [![image](https://img.shields.io/badge/website-GDA-brightgreen)](http://www.gda.wiki:9090/?language=en)
-[![image](https://img.shields.io/badge/download-GDAE%20pro3.75-ff69b4)](http://www.gda.wiki:9090/?language=en)
+[![image](https://img.shields.io/badge/download-GDAE%20pro-ff69b4)](http://www.gda.wiki:9090/?language=en)
 [![image](https://img.shields.io/badge/Guide-Brief-yellow)](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki)
 [![image](https://img.shields.io/badge/Guide-Script%20Support-yellow)](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA-Python-scripts)
 [![image](https://img.shields.io/badge/Guide-taint%20analysis-yellow)](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA-Static-Taint-analysis)
