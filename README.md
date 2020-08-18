@@ -1,10 +1,10 @@
 
 [![image](https://img.shields.io/badge/website-GDA-brightgreen?logo=groupon)](http://www.gda.wiki:9090/?language=en)
 [![image](https://img.shields.io/badge/download-GDAE%20pro-ff69b4?logo=SoundCloud)](http://www.gda.wiki:9090/?language=en)
-[![image](https://img.shields.io/badge/Guide-Brief-yellow)](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki)
-[![image](https://img.shields.io/badge/Guide-Script%20Support-yellow)](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA-Python-scripts)
-[![image](https://img.shields.io/badge/Guide-taint%20analysis-yellow?logo=Apache20%NetBeans%20IDE)](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA-Static-Taint-analysis)
-[![image](https://img.shields.io/badge/Update-History-brightgreen)](http://www.gda.wiki:9090/update_list.php?language=en)
+[![image](https://img.shields.io/badge/Guide-Brief-brightgreen?logo=Talend&logoColor=red)](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki)
+[![image](https://img.shields.io/badge/Guide-Script-brightgreen?logo=Talend&logoColor=red)](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA-Python-scripts)
+[![image](https://img.shields.io/badge/Guide-taint%20analysis-brightgreen?logo=Talend&logoColor=red)](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA-Static-Taint-analysis)
+[![image](https://img.shields.io/badge/Update-History-brightgreen?logo=Apache%20Cassandra&logoColor=red)](http://www.gda.wiki:9090/update_list.php?language=en)
 
 
 # ˇ GDA(GJoy Dex Analysizer)
