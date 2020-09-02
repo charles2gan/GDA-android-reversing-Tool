@@ -126,3 +126,12 @@ In addition, GDA has more excellent features as follows:
   
   ☳ Variable trace
   ![](https://github.com/charles2gan/GDA-android-reversing-Tool/blob/master/gif/dataflow_return.gif)
+  
+  ☴ Color theme
+  ![](https://github.com/charles2gan/GDA-android-reversing-Tool/blob/master/GDA%20Color%20theme/white_black.png)
+  ![](https://github.com/charles2gan/GDA-android-reversing-Tool/blob/master/GDA%20Color%20theme/white_black1.png)
+  ![](https://github.com/charles2gan/GDA-android-reversing-Tool/blob/master/GDA%20Color%20theme/white_red.png)
+  ![](https://github.com/charles2gan/GDA-android-reversing-Tool/blob/master/GDA%20Color%20theme/black_black.png)
+  ![](https://github.com/charles2gan/GDA-android-reversing-Tool/blob/master/GDA%20Color%20theme/black_blue.png)
+  ![](https://github.com/charles2gan/GDA-android-reversing-Tool/blob/master/GDA%20Color%20theme/black_green.png)
+  
