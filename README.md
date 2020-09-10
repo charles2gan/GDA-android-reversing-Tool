@@ -87,7 +87,7 @@ In addition, GDA has more excellent features as follows:
 |Ctr+C    |Copy|
 |Ctr+V    |Paste, only for editable boxes|
 |Ctr+X    |Cut|
-|Ctr+F    |Find out the string of the current window|
+|Ctr+F    |Find out the string of the code area|
 |Ctr+S    |Save the modifications into the GDA database file|
 
 
