@@ -105,10 +105,12 @@ In addition, GDA has more excellent features as follows:
 
 # ˇ Usage:
 
-  Drag file into GDA, if you wanna analyze `.jar/.class` file, please convert the `.jar/class` to `DEX` by `dx tool` in android sdk path `android-sdk/build-tools/{sdkversion}/`
+  Drag file into GDA, if you wanna analyze `.jar/.class/.aar` file, please convert the `jar/class/aar` to `DEX` by `dx tool` in android sdk path `android-sdk/build-tools/{sdkversion}/`
   ```
   dx --dex --output=<target.dex> <origin.jar>
   ```
+  Since GDA3.79, the automatic conversion of the above files is supported. You just need to choose the correct dx tool path when open the `.jar/.class/.aar` file. If you don't have Android SDK in your system, you can try this one(https://github.com/charles2gan/GDA-android-reversing-Tool/tree/master/dx_tool).
+  
   
   Brief guide: https://github.com/charles2gan/GDA-android-reversing-Tool/wiki
   
