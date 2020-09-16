@@ -109,7 +109,7 @@ In addition, GDA has more excellent features as follows:
   ```
   dx --dex --output=<target.dex> <origin.jar>
   ```
-  Since GDA3.79, the automatic conversion of the above files is supported. You just need to choose the correct dx tool path(JUST ONCE) when open the `.jar/.class/.aar` file. If you don't have Android SDK in your system, you can try this one(https://github.com/charles2gan/GDA-android-reversing-Tool/tree/master/dx_tool). Please make sure that the DX tool you choose works properly.
+  Since GDA3.79, the automatic conversion of the above files is supported. You just need to choose the correct dx.bat path(JUST ONCE) when open the `.jar/.class/.aar` file. If you don't have Android SDK in your system, you can try this one(https://github.com/charles2gan/GDA-android-reversing-Tool/tree/master/dx_tool). Please make sure that the dx.bat works properly.
   
   
   Brief guide: https://github.com/charles2gan/GDA-android-reversing-Tool/wiki
