@@ -109,16 +109,16 @@ In addition, GDA has more excellent features as follows:
   ```
   dx --dex --output=<target.dex> <origin.jar>
   ```
-  Since GDA3.79, the automatic conversion of the above files is supported. You just need to choose the correct dx.bat path(JUST ONCE) when open the `.jar/.class/.aar` file. If you don't have Android SDK in your system, you can try this one(https://github.com/charles2gan/GDA-android-reversing-Tool/tree/master/dx_tool). Please make sure that the dx.bat works properly.
+  Since GDA3.79, the automatic conversion of the above files is supported. You just need to choose the correct dx.bat path(JUST ONCE) when open the `.jar/.class/.aar` file. If you don't have Android SDK in your system, you can try **[this one](https://github.com/charles2gan/GDA-android-reversing-Tool/tree/master/dx_tool)**. Please make sure that the dx.bat works properly.
   
+  ***[Brief guide](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki)***
   
-  Brief guide: https://github.com/charles2gan/GDA-android-reversing-Tool/wiki
+  ***[Python script](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA-Python-scripts)***
   
-  Python script: https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA-Python-scripts
+  ***[GDA static taint analysis](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA-Static-Taint-analysis)***
   
-  GDA static taint analysis: https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA-Static-Taint-analysis
+  ***[Batch decryption of APP strings](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/Batch-decryption-of-APP-strings)***
   
-  Batch decryption of APP strings: https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/Batch-decryption-of-APP-strings
   
 # ˇ Shows:
   
