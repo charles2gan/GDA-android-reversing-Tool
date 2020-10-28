@@ -35,6 +35,8 @@ In addition, GDA has more excellent features as follows:
     3.XML Decoder (Component filter);
     4.Algorithm tool(Support rolling encryption and almost all popular encryption algorithms);
     5.Device memory dump(Dump so, odex, dex, oat file);
+    6.Path solving;
+    7.Static vulnerability scanner;
     ...
     
 𝕮 New features:
@@ -58,6 +60,8 @@ In addition, GDA has more excellent features as follows:
     18.Deep URL extraction.
     19.Multi-DEX Merge.
     20.Personalized and Customizable UI.
+    21.Path solving based on low-level intermediate representation.
+    22.Static vulnerability scanner based on stack state machine and dynamic rule interpreter.
     ...
 ```  
 
