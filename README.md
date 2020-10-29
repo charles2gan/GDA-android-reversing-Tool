@@ -1,7 +1,8 @@
 
 [![image](https://img.shields.io/badge/website-GDA-brightgreen?logo=groupon)](http://www.gda.wiki:9090/?language=en)
-[![image](https://img.shields.io/badge/download-GDAE%20pro-ff69b4?logo=SoundCloud)](http://www.gda.wiki:9090/?language=en)
 [![image](https://img.shields.io/badge/Guide-Brief-brightgreen?logo=Talend&logoColor=red)](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki)
+[![image](https://img.shields.io/badge/Guide-PathSolver-brightgreen?logo=Talend&logoColor=red)](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA-Path-Solver)
+[![image](https://img.shields.io/badge/Guide-VulScanner-brightgreen?logo=Talend&logoColor=red)](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA-Vulnerability-Scanner)
 [![image](https://img.shields.io/badge/Guide-Script-brightgreen?logo=Talend&logoColor=red)](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA-Python-scripts)
 [![image](https://img.shields.io/badge/Guide-taint%20analysis-brightgreen?logo=Talend&logoColor=red)](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA-Static-Taint-analysis)
 [![image](https://img.shields.io/badge/Update-History-brightgreen?logo=Apache-Cassandra&logoColor=red)](http://www.gda.wiki:9090/update_list.php?language=en)
@@ -119,9 +120,13 @@ In addition, GDA has more excellent features as follows:
   
   ***[Python script](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA-Python-scripts)***
   
+  ***[GDA Path Solver](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA-Path-Solver)***
+  
   ***[GDA static taint analysis](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA-Static-Taint-analysis)***
   
   ***[Batch decryption of APP strings](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/Batch-decryption-of-APP-strings)***
+  
+  ***[GDA Vulnerability Scanner](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA-Vulnerability-Scanner)***
   
   
 # ˇ Color theme:
