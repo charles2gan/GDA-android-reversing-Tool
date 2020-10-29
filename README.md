@@ -4,9 +4,11 @@
 [![image](https://img.shields.io/badge/Guide-PathSolver-brightgreen?logo=Talend&logoColor=red)](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA-Path-Solver)
 [![image](https://img.shields.io/badge/Guide-VulScanner-brightgreen?logo=Talend&logoColor=red)](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA-Vulnerability-Scanner)
 [![image](https://img.shields.io/badge/Guide-Script-brightgreen?logo=Talend&logoColor=red)](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA-Python-scripts)
-[![image](https://img.shields.io/badge/Guide-taint%20analysis-brightgreen?logo=Talend&logoColor=red)](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA-Static-Taint-analysis)
+[![image](https://img.shields.io/badge/Guide-Taint%20Analysis-brightgreen?logo=Talend&logoColor=red)](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA-Static-Taint-analysis)
 [![image](https://img.shields.io/badge/Update-History-brightgreen?logo=Apache-Cassandra&logoColor=red)](http://www.gda.wiki:9090/update_list.php?language=en)
 [![image](https://img.shields.io/badge/Chat-Zhihu-brightgreen?logo=Zhihu)](https://www.zhihu.com/people/gjden)
+[![image](https://img.shields.io/badge/Chat-Twitter-brightgreen?logo=Twitter)](https://twitter.com/charles_gan1)
+
 
 ![](https://github.com/charles2gan/GDA-android-reversing-Tool/blob/master/GDA_PIC/mainpage.png)
 
