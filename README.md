@@ -124,6 +124,8 @@ In addition, GDA has more excellent features as follows:
   
   ***[GDA Path Solver](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA-Path-Solver)***
   
+  ***[GDA APK Forensic](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA-APK-Forensic)***
+  
   ***[GDA static taint analysis](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA-Static-Taint-analysis)***
   
   ***[Batch decryption of APP strings](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/Batch-decryption-of-APP-strings)***
