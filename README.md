@@ -15,11 +15,11 @@
 
 # ˇ GDA(GJoy Dex Analysizer)
 
-GDA, a new Dalvik bytecode decompiler, is implemented in C++ to provide more sophisticated, fast and convenient decompilation support. GDA is completely self-independent and stable. It supports APK, DEX, ODEX, OAT files(supports JAR, CLASS and AAR files since 3.79), and run without installation and Java VM support. And you can use it in any newly installed windows system and virtual machine system without additional configuration. GDA original file is 2m, and the size of the new version is increased to 5M after VMP protection.
+GDA, a new Dalvik bytecode decompiler, is implemented in C++ to provide faster, Low memory&disk consumption decompilation support for the APK, DEX, ODEX, OAT files(supports JAR, CLASS and AAR files since 3.79). GDA is completely self-independent and works without Java VM and installation, so it works well in any newly installed windows system and virtual machine system without additional configuration. GDA Decompiler project started in 2013 and its first version 1.0 released in 2015 at www.gda.wiki:9090.
 
-GDA is not only a decompiler, but also a powerful and fast reverse analysis platform. It supports not only routine analysis operations, but also **Malicious behavior detection, Privacy leaking detection, Vulnerability detection, Path solving, Packer identification, Variable tracking analysis, Deobfuscation, Python& Java scripts, Device memory extraction, Data decryption and encryption** etc. 
+GDA is also a powerful and fast reverse analysis platform. Which does not only supports the basic decompiling operation, but also many excellent functions like **Malicious behavior detection, Privacy leaking detection, Vulnerability detection, Path solving, Packer identification, Variable tracking analysis, Deobfuscation, Python& Java scripts, Device memory extraction, Data decryption and encryption** etc. 
 
-In addition, GDA has more excellent features as follows:
+All the excellent features as follows:
 
 
 
