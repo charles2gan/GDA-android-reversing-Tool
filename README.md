@@ -104,6 +104,8 @@ All the excellent features as follows:
 # ˇ False positive report
   
   For copyright protection, GDA is protected by an authorized VMP(http://vmpsoft.com/), which may lead to false positives of some anti-virus software. Please ignore or add GDA to the white list. GDA does not have any malicious behavior.
+  
+  GDA is embedded with ADB and gdump (used to dump device memory data), as well as vul rules, source-taint rules, api fingerprint etc. so, you will see some file in directory %APPDATA%/GDA.
 
 # ˇ Supported platforms
 
