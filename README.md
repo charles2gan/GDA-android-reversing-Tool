@@ -14,7 +14,7 @@
 
 # ˇ GDA(GJoy Dex Analysizer)
 
-GDA, a new Dalvik bytecode decompiler, is implemented in C++, which has the advantages of faster execution and lower memory&disk consumption and an stronger ability to decompiling the APK, DEX, ODEX, OAT files(supports JAR, CLASS and AAR files since 3.79). GDA is completely self-independent and works without Java VM and installation, so it works well in any newly installed windows system and virtual machine system without additional configuration. GDA Decompiler project started in 2013 and its first version 1.0 released in 2015 at [GDA website](www.gda.wiki:9090/index.php?language=en).
+GDA, a new Dalvik bytecode decompiler, is implemented in C++, which has the advantages of faster execution and lower memory&disk consumption and an stronger ability to decompiling the APK, DEX, ODEX, OAT files(supports JAR, CLASS and AAR files since 3.79). GDA is completely self-independent and works without Java VM and installation, so it works well in any newly installed windows system and virtual machine system without additional configuration. GDA Decompiler project started in 2013 and its first version 1.0 released in 2015 at **[GDA website](http://www.gda.wiki:9090/index.php?language=en)**.
 
 GDA is also a powerful and fast reverse analysis platform. Which does not only supports the basic decompiling operation, but also many excellent functions like **Malicious behavior detection, Privacy leaking detection, Vulnerability detection, Path solving, Packer identification, Variable tracking analysis, Deobfuscation, Python& Java scripts, Device memory extraction, Data decryption and encryption** etc. 
 
@@ -22,48 +22,48 @@ All the excellent features as follows:
 
 
 
-```
+```python
 𝕬 Interactive operation:
-    1.Cross-references for strings, classes, methods and fields;
-    2.Searching for strings, classes methods and fields;
-    3.Comments for java code;
-    4.Rename methods,fields and classes;
-    5.Save the analysis results in gda db file.
+    1. Cross-references for strings, classes, methods and fields;
+    2. Searching for strings, classes methods and fields;
+    3. Comments for java code;
+    4. Rename methods,fields and classes;
+    5. Save the analysis results in gda db file.
     ...
   
 𝕭 Utilities for Assisted Analysis:
-    1.Extracting DEX from ODEX;
-    2.Extracting DEX from OAT;
-    3.XML Decoder (Component filter);
-    4.Algorithm tool(Support rolling encryption and almost all popular encryption algorithms);
-    5.Device memory dump(Dump so, odex, dex, oat file);
-    6.Path solving;
-    7.Static vulnerability scanner;
+    1. Extracting DEX from ODEX;
+    2. Extracting DEX from OAT;
+    3. XML Decoder (Component filter);
+    4. Algorithm tool(Support rolling encryption and almost all popular encryption algorithms);
+    5. Device memory dump(Dump so, odex, dex, oat file);
+    6. Path solving;
+    7. Static vulnerability scanner;
     ...
     
 𝕮 New features:
-    1.Brand new dalvik decompiler in c++ with friendly GUI;
-    2.Support python script and Java script;
-    3.Packers Recognition;
-    4.Multi-DEX supporting;
-    5.Making and loading signature of the method;
-    6.Malicious Behavior Scanning by API chains;
-    7.Taint analysis to preview the behavior of variables;
-    8.Taint analysis to trace the path of variables;
-    9.De-obfuscate;
-    10.API view with x-ref;
-    11.Association of permissions with modules;
-    12.Extract all the urls in APK.
-    13.Apk Forensics Analysis.
-    14.Static vulnerability scanner based on stack state machine and dynamic rule interpreter..
-    15.Smart Rename.
-    16.Support for .jar files, .class files and .aar files.
-    17.Dual decompiler mode.
-    18.Deep URL extraction.
-    19.Multi-DEX Merge.
-    20.Personalized and Customizable UI.
-    21.Privacy leaking scanning.
-    22.Path solving based on low-level intermediate representation(LIR).
+    1. Brand new dalvik decompiler in c++ with friendly GUI;
+    2. Support python script and Java script;
+    3. Packers Recognition;
+    4. Multi-DEX supporting;
+    5. Making and loading signature of the method;
+    6. Malicious Behavior Scanning by API chains;
+    7. Taint analysis to preview the behavior of variables;
+    8. Taint analysis to source the variables;
+    9. De-obfuscate;
+    10. API view with x-ref;
+    11. Association of permissions with modules;
+    12. Extract all the urls in APK.
+    13. Apk Forensics Analysis.
+    14. Static vulnerability scanner based on stack state machine and dynamic rule interpreter..
+    15. Smart Rename.
+    16. Support for .jar files, .class files and .aar files.
+    17. Dual decompiler mode.
+    18. Deep URL extraction.
+    19. Multi-DEX Merge.
+    20. Personalized and Customizable UI.
+    21. Privacy leaking scanning.
+    22. Path solving based on low-level intermediate representation(LIR).
     ...
 ```  
 
@@ -103,7 +103,7 @@ All the excellent features as follows:
   
 # ˇ False positive report
   
-  For copyright protection, GDA is protected by an authorized VMP(http://vmpsoft.com/), which may lead to false positives of some anti-virus software. Please ignore or add GDA to the white list. GDA does not have any malicious behavior.
+  For copyright protection, GDA is protected by an authorized [VMP](http://vmpsoft.com/), which may lead to false positives of some anti-virus software. Please ignore or add GDA to the white list. GDA does not have any malicious behavior.
   
   GDA is embedded with ADB and gdump (used to dump device memory data), as well as vul rules, source-taint rules, api fingerprint etc. so, you will see some file in directory %APPDATA%/GDA.
 
@@ -117,7 +117,7 @@ All the excellent features as follows:
   ```
   dx --dex --output=<target.dex> <origin.jar>
   ```
-  Since GDA3.79, the automatic conversion of the above files is supported. You just need to choose the correct dx.bat path(JUST ONCE) when open the `.jar/.class/.aar` file. If you don't have Android SDK in your system, you can try **[this one](https://github.com/charles2gan/GDA-android-reversing-Tool/tree/master/dx_tool)**. Please make sure that the dx.bat works properly.
+  Since GDA3.79, the automatic conversion of the above files is supported. You just need to choose the correct dx.bat path(JUST ONCE) when open the `.jar/.class/.aar` file. If you don't have Android SDK in your system, you can try **[THIS ONE](https://github.com/charles2gan/GDA-android-reversing-Tool/tree/master/dx_tool)**. Please make sure that the dx.bat works properly.
   
   ***[Brief guide](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki)***
   
