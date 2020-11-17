@@ -123,6 +123,8 @@ All the excellent features as follows:
   
   ***[Python script](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA-Python-scripts)***
   
+  ***[GDA Privacy Leak](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA-Privacy-Leak-Detection)***
+  
   ***[GDA Path Solver](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA-Path-Solver)***
   
   ***[GDA APK Forensic](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA-APK-Forensic)***
