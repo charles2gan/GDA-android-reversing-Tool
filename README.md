@@ -119,9 +119,9 @@ All the excellent features as follows:
   ```
   Since GDA3.79, the automatic conversion of the above files is supported. You just need to choose the correct dx.bat path(JUST ONCE) when open the `.jar/.class/.aar` file. If you don't have Android SDK in your system, you can try **[THIS ONE](https://github.com/charles2gan/GDA-android-reversing-Tool/tree/master/dx_tool)**. Please make sure that the dx.bat works properly.
   
-  ***[Brief guide](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki)***
+  ***[Brief Guide](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki)***
   
-  ***[Python script](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA-Python-scripts)***
+  ***[Python Script](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA-Python-scripts)***
   
   ***[GDA Privacy Leak](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA-Privacy-Leak-Detection)***
   
@@ -129,9 +129,9 @@ All the excellent features as follows:
   
   ***[GDA APK Forensic](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA-APK-Forensic)***
   
-  ***[GDA static taint analysis](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA-Static-Taint-analysis)***
+  ***[GDA Static Taint Analysis](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA-Static-Taint-analysis)***
   
-  ***[Batch decryption of APP strings](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/Batch-decryption-of-APP-strings)***
+  ***[Batch Decryption Of APP Strings](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/Batch-decryption-of-APP-strings)***
   
   ***[GDA Vulnerability Scanner](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA-Vulnerability-Scanner)***
   
