@@ -138,6 +138,8 @@ All the excellent features as follows:
   
 # ˇ Color theme:
 
+Only support GDA3.75+, Other version do not use this theme file. Usage:click on menu‘File’->‘Import Color Config’,choosing a theme file and reboot GDA.
+
 ***[Download Here](https://github.com/charles2gan/GDA-android-reversing-Tool/tree/master/GDA%20Color%20theme)***
 
   ![](https://github.com/charles2gan/GDA-android-reversing-Tool/blob/master/GDA%20Color%20theme/white_black.png)
