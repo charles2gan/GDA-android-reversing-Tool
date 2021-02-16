@@ -149,21 +149,3 @@ Only support GDA3.75+, Other version do not use this theme file. Usage:click on 
   ![](https://github.com/charles2gan/GDA-android-reversing-Tool/blob/master/GDA%20Color%20theme/black_blue.png)
   ![](https://github.com/charles2gan/GDA-android-reversing-Tool/blob/master/GDA%20Color%20theme/black_green.png)
   
-# ˇ Shows:
-  
-  ☰ File loading and decompiling:
-  
-  ![](https://github.com/charles2gan/GDA-android-reversing-Tool/blob/master/gif/load.gif)
-  
-  ☱ MalScan, API search, x-ref...
-  
-  ![](https://github.com/charles2gan/GDA-android-reversing-Tool/blob/master/gif/check.gif)
-  
-  ☲ Url,Xml,string x-ref...
-
-  ![](https://github.com/charles2gan/GDA-android-reversing-Tool/blob/master/gif/mainfest.gif)
-  
-  ☳ Variable trace
-  ![](https://github.com/charles2gan/GDA-android-reversing-Tool/blob/master/gif/dataflow_return.gif)
-  
-  
