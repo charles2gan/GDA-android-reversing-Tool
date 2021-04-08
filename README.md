@@ -12,7 +12,7 @@
 ![](https://github.com/charles2gan/GDA-android-reversing-Tool/blob/master/GDA_PIC/mainpage.png)
 
 
-# ˇ GDA(GJoy Dex Analysizer)
+# ˇ GDA(GJoy Dex Analyzer)
 
 GDA, a new Dalvik bytecode decompiler, is implemented in C++, which has the advantages of faster analysis and lower memory&disk consumption and an stronger ability to decompiling the APK, DEX, ODEX, OAT files(supports JAR, CLASS and AAR files since 3.79). GDA is completely self-independent and works without Java VM and installation, so it works well in any newly installed windows system and virtual machine system without additional configuration. GDA Decompiler project started in 2013 and its first version 1.0 released in 2015 at **[GDA website](http://www.gda.wiki:9090/index.php?language=en)**.
 
