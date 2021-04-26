@@ -137,6 +137,7 @@ All the excellent features as follows:
   ***[Batch Decryption Of APP Strings](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/Batch-decryption-of-APP-strings)***
   
   ***[GDA Vulnerability Scanner](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA-Vulnerability-Scanner)***
+  
   ***[GDA: Capture the Flag in CTF](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA:-%22Unpacking-Decompiling-Decrypting%22-to-Capture-the-Flag-in-CTF-Game)***
   
 # ˇ Color theme:
