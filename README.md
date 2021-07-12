@@ -64,6 +64,8 @@ All the excellent features as follows:
     20. Personalized and Customizable UI.
     21. Privacy leaking scanning.
     22. Path solving based on low-level intermediate representation(LIR).
+    23. Support Frida to hook and call the selected method or class.
+    24. Support call-graph view.
     ...
 ```  
 
