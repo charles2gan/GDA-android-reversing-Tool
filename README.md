@@ -126,6 +126,8 @@ All the excellent features as follows:
   
   ***[Brief Guide](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki)***
   
+  ***[Support For Frida](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA-support-for-the-frida)***
+  
   ***[Python Script](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA-Python-scripts)***
   
   ***[GDA Privacy Leak](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA-Privacy-Leak-Detection)***
