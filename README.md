@@ -130,12 +130,8 @@ All the excellent features as follows:
   2: if you do nothing, when you drag `jar/class/AAR` program to GDA, GDA will prompt you to select the dx.bat file in the Android SDK directory. If you select OK, the file   selection box will pop up. It is recommended to select the optimized DX tool that I provided on GitHub. when the previously selected DX path does not work, you need to find the config.dat file in the GDA working directory (`%APPDATA%/GDA`) and set the value of `dx` item in `[Java]` to the working DX path.
 ![](https://github.com/charles2gan/GDA-android-reversing-Tool/blob/master/GDA_PIC/dxconfig.png)
 
-  3: Convert the `jar/class/aar` to `DEX` by `dx tool` in android sdk path `android-sdk/build-tools/{sdkversion}/`
-  
-  ```
-  dx --dex --output=<target.dex> <origin.jar>
-  ```
  
+
  
   ***[FAQ Summary](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA-Decompiler-FAQ-Summary)***
   
