@@ -117,9 +117,9 @@ All the excellent features as follows:
 
   Just drag a file into GDA, that's done. 
   
-  If your files are `.jar/.class/.aar` files, you need the dx tool. I have feedback that the official DX tool from Android SDK cannot work for some jar file. So I spent some time doing optimization and bug repair to adapt to GDA decompiler. Please download **[THIS ONE](https://github.com/charles2gan/GDA-android-reversing-Tool/tree/master/dx_tool)**. Please make sure that the dx.bat works properly.
+  If your files are `.jar/.class/.aar` files, you need the dx tool. I have feedback that the official DX tool from Android SDK cannot work for some jar files. So I spent some time doing optimization and bug repair to adapt to GDA decompiler. Please download **[THIS ONE](https://github.com/charles2gan/GDA-android-reversing-Tool/tree/master/dx_tool)**. Please make sure that the dx.bat works properly.
   
-  When the analyzed jar file size is too big, it maybe takes a long time, please be patient. If you choose the DX tool provided by me, the progress window will pop up when analyzing big size files.
+  When the analyzed jar file size is too big, it maybe takes a long time to analysize, please be patient. If you choose the DX tool provided by me, the progress window will pop up when analyzing big size files.
   
   ![](https://github.com/charles2gan/GDA-android-reversing-Tool/blob/master/GDA_PIC/dxprocess.gif)
   
