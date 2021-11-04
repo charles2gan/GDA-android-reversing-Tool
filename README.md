@@ -23,7 +23,7 @@ All the excellent features as follows:
 
 
 ```python
-𝕬 Interactive operation:
+𝕬 Interactive Operation:
     1. Cross-references for strings, classes, methods and fields;
     2. Searching for strings, classes methods and fields;
     3. Comments for java code;
@@ -41,7 +41,7 @@ All the excellent features as follows:
     7. Static vulnerability scanner;
     ...
     
-𝕮 New features:
+𝕮 New Features:
     1. Brand new dalvik decompiler in c++ with friendly GUI;
     2. Support python script and Java script;
     3. Packers Recognition;
@@ -101,7 +101,9 @@ All the excellent features as follows:
 
 # ˇ Installing
 
-  Not yet, just double-click the bin and you can enjoy it.
+  Not yet, just double-click the bin and you can enjoy it. 
+  NOTE：
+  This is not an open source project，at least，in the short term. You can use the free tools and some open source scripts published here. 
   
 # ˇ False positive report
   
