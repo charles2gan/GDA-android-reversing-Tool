@@ -119,21 +119,14 @@ All the excellent features as follows:
 
   Just drag a file into GDA, that's done. 
   
-  If your files are `.jar/.class/.aar` files, you need the dx tool. I have feedback that the official DX tool from Android SDK cannot work for some jar files. So I spent some time doing optimization and bug repair to adapt to GDA decompiler. Please download **[THIS ONE](https://github.com/charles2gan/GDA-android-reversing-Tool/tree/master/dx_tool)**. Please make sure that the dx.bat works properly.
+  If your files are `.jar/.class/.aar` files, you need the java support the dx tool. Please make sure that the java works properly.
   
-  When the analyzed jar file size is too big, it maybe takes a long time to analysize, please be patient. If you choose the DX tool provided by me, the progress window will pop up when analyzing big size files.
+  When the analyzed jar file size is too big, it maybe takes a long time to analysize, please be patient.
   
   ![](https://github.com/charles2gan/GDA-android-reversing-Tool/blob/master/GDA_PIC/dxprocess.gif)
   
-  At last, you have done the one of them, just ok:
   
-  1: the simplest way is to copy the dx.jar file in the lib folder to the temporary working directory of GDA (`%APPDATA%/GDA/gdatmp`). Please install the java environment (`above java 1.7`) first and ensure that the java can be work properly.
-  
-  2: if you do nothing, when you drag `jar/class/AAR` program to GDA, GDA will prompt you to select the dx.bat file in the Android SDK directory. If you select OK, the file   selection box will pop up. It is recommended to select the optimized DX tool that I provided on GitHub. when the previously selected DX path does not work, you need to find the config.dat file in the GDA working directory (`%APPDATA%/GDA`) and set the value of `dx` item in `[Java]` to the working DX path.
-![](https://github.com/charles2gan/GDA-android-reversing-Tool/blob/master/GDA_PIC/dxconfig.png)
-
  
-
  
   ***[FAQ Summary](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA-Decompiler-FAQ-Summary)***
   
