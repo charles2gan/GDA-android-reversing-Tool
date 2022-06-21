@@ -123,10 +123,6 @@ All the excellent features as follows:
   
   When the analyzed jar file size is too big, it maybe takes a long time to analysize, please be patient.
   
-  ![](https://github.com/charles2gan/GDA-android-reversing-Tool/blob/master/GDA_PIC/dxprocess.gif)
-  
-  
- 
  
   ***[FAQ Summary](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA-Decompiler-FAQ-Summary)***
   
