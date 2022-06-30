@@ -101,7 +101,7 @@ All the excellent features as follows:
 
 # ˇ Installing
 
-  Not yet, just double-click the bin and you can enjoy it. 
+  No installation required, just double-click the bin and you can enjoy it. 
   NOTE：
   This is not an open source project，at least，in the short term. You can use the free tools and some open source scripts published here. 
   
