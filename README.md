@@ -14,11 +14,13 @@
 
 # ˇ GDA(GJoy Dex Analyzer)
 
-GDA, a new Dalvik bytecode decompiler for android APPs, the kernel is implemented in C++, which has the advantages of faster analysis and lower memory&disk consumption and an stronger ability to decompiling the apk, dex, odex, oat, jar, class, aar files. GDA is completely native software and works without Java VM, so it works well in any new windows system and virtual machine system without additional configuration. GDA Decompiler project started in 2013 and its first version 1.0 released in 2015 at **[GDA website](http://www.gda.wiki:9090/index.php?language=en)**.
+GDA, an powerful Dalvik bytecode decompiler implemented in C++, which has the advantages of fast analysis and low memory&disk consumption and an stronger ability to decompiling the apk, dex, odex, oat, jar, class, aar files.
 
-GDA is also a powerful and fast reverse analysis platform. Which does not only supports the basic decompiling operation, but also many excellent functions like **Malicious behavior detection, Privacy leaking detection, Vulnerability detection, Path solving, Packer identification, Variable tracking analysis, Deobfuscation, Python& Java scripts, Device memory extraction, Data decryption and encryption** etc. 
+GDA is completely native software and works without Java VM, so it works well in any new windows system and virtual machine system without additional configuration. GDA Decompiler project started in 2013 and its first version 1.0 released in 2015 at **[GDA website](http://www.gda.wiki:9090/index.php?language=en)**.
 
-All the excellent features as follows:
+GDA is also a powerful and fast reverse analysis platform. Which does not only supports the basic decompiling operation, but also many excellent features like **Malicious behavior detection, Privacy leaking detection, Vulnerability detection, Path solving, Packer identification, Variable tracking analysis, Deobfuscation, Python& Java scripts, Device memory extraction, Data decryption and encryption** etc. 
+
+All the features as follows:
 
 
 
