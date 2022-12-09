@@ -8,7 +8,7 @@
 [![image](https://img.shields.io/badge/Update-History-brightgreen?logo=Apache-Cassandra&logoColor=red)](http://www.gda.wiki:9090/update_list.php?language=en)
 [![image](https://img.shields.io/badge/Chat-Zhihu-brightgreen?logo=Zhihu)](https://www.zhihu.com/people/gjden)
 [![image](https://img.shields.io/badge/Chat-Twitter-brightgreen?logo=Twitter)](https://twitter.com/charles_gan1)
-
+[![image](https://img.shields.io/badge/Chat-on20%Slack-brightgreen?logo=Slack)](https://join.slack.com/t/gda-community/shared_invite/zt-1jdbxk3nk-aiko3Dv9F3Id2Cc9k01j~A)
 ![](https://github.com/charles2gan/GDA-android-reversing-Tool/blob/master/GDA_PIC/mainpage.png)
 
 
