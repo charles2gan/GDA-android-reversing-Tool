@@ -147,6 +147,10 @@ All the features as follows:
   ***[GDA Vulnerability Scanner](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA-Vulnerability-Scanner)***
   
   ***[GDA: Capture the Flag in CTF](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA:-%22Unpacking-Decompiling-Decrypting%22-to-Capture-the-Flag-in-CTF-Game)***
+
+  ***[GDA: DEX Static Patch Technology Based on Smali Just-in-time Compilation](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA:-DEX-Static-Patch-Technology-Based-on-Smali-Just%E2%80%90in%E2%80%90time-Compilation)***
+
+
   
 # ˇ Color theme:
 
