@@ -44,30 +44,31 @@ All the features as follows:
     ...
     
 𝕮 Good Features:
-    1. Brand new dalvik decompiler in c++ with friendly GUI;
-    2. Support python script and Java script;
-    3. Packers Recognition;
-    4. Multi-DEX supporting;
-    5. Making and loading signature of the method;
-    6. Malicious Behavior Scanning by API chains;
-    7. Taint analysis to preview the behavior of variables;
-    8. Taint analysis to source the variables;
-    9. De-obfuscate;
-    10. API view with x-ref;
-    11. Association of permissions with modules;
-    12. Extract all the urls in APK.
-    13. Apk Forensics Analysis.
-    14. Static vulnerability scanner based on stack state machine and dynamic rule interpreter..
-    15. Smart Rename.
-    16. Support for .jar files, .class files and .aar files.
-    17. Dual decompiler mode.
-    18. Deep URL extraction.
+    1. Brand new dalvik decompiler in c++ with friendly GUI.
+    2. Packers Recognition.
+    3. Multi-DEX supporting.
+    4. De-obfuscate.
+    5. Malicious Behavior Scanning by API chains.
+    6. Static vulnerability scanner based on stack state machine and dynamic rule interpreter.
+    7. Taint analysis to preview the behavior of variables.
+    8. Taint analysis to source the variables.
+    9. APIs view with x-reference
+    10. Deep URL extraction.
+    11. Association of permissions with modules.
+    12. Apk Forensics Analysis.
+    13. Dual decompiler mode.
+    14. Smart Rename.
+    15. Device memory data dump, DEX file dump by memory searching.
+    16. Support Frida to hook and call the selected method or class.
+    17. Privacy leaking scanning.
+    18. Sensitive Infomation extraction.
     19. Multi-DEX Merge.
-    20. Personalized and Customizable UI.
-    21. Privacy leaking scanning.
-    22. Path solving based on low-level intermediate representation(LIR).
-    23. Support Frida to hook and call the selected method or class.
-    24. Support call-graph view.
+    20. Path solving based on low-level intermediate representation(LIR).
+    21. Junk instruction clearing.
+    22. Support call-graph view.
+    23. Smali instruction patch, apk repack and install.
+    24. Support subclass and parentclass view.
+    25. Support translation of the strings.
     ...
 ```  
 
