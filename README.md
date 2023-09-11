@@ -130,6 +130,8 @@ All the features as follows:
   ***[FAQ Summary](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA-Decompiler-FAQ-Summary)***
   
   ***[Brief Guide](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki)***
+
+  ***[How to search what you need](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/How-to-search-what-you-need%3F)***
   
   ***[Support For Frida](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA-support-for-the-frida)***
   
