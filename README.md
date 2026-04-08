@@ -120,12 +120,82 @@ All the features as follows:
 
 # ˇ Usage:
 
+  1.GUI mode
+  
   Just drag a file into GDA, that's done. 
   
   If your files are `.jar/.class/.aar` files, you need the java support the dx tool. Please make sure that the java works properly.
   
   When the analyzed jar file size is too big, it maybe takes a long time to analysize, please be patient.
   
+  2.CLI mode
+  ```
+  >gda.exe
+    -sh src_file      --> start a Shell
+    -sv src_file port --> start a Server
+    -h                --> help
+  >gda.exe -h
+     Usage:gda.exe [option] [apk_file] [-o output_file]
+        option:
+        -h help
+        -x show AndroidManifest.xml
+        -p app package name
+        -P permission
+        -i apk base info
+        -a attack surface
+        -k packer
+        -s all the strings
+        -S referenced strings
+        -c cert information
+        -d decompile all code
+  >gda -sh test.apk
+  >
+  >
+  GDA Shell >help
+        subcmd [-args]... [-t filter_string]
+        help       --> shell command help
+        set -o file--> set output file
+        exit/q     --> to exit
+        axml       --> content of androidmainfest.xml
+        binfo      --> apk base info
+        pname      --> apk package name
+        permission --> permissions of APP
+        header n   --> header of the n-st dex file
+        attsf      --> attacksurface
+        packer     --> packer
+        cert       --> certifacate
+        appstr     --> strings referenced by methods
+        malscan    --> malcious behavior
+        sensinf    --> sensitive infos
+        interface  --> list interface classes
+        uri        --> url,path etc.
+        native     --> list native methods
+        api        --> list api methods
+        listm cname--> list the methods of class(dot)
+        sclass cidx--> list subclasses by class index(hex)
+        pclass cidx--> list parent class by class index(hex)
+        dasm option--> disasembly a method
+            option:  @type(e.g., dasm method@0045F0)
+                    -n name(signature name,e.g.,"Lcom/base/Binary;->add(Lcom/base/Binary;)V")
+        dec option--> decompile a method or class,
+            option:  @type (class/method type), e.g., dec method@21f
+                    -c[-m] name(class/method signature name, e.g. , "Lcom/base/Binary;")
+                    -a filepath(decompile the all classes)
+        find option--> search object by name(match partial/regex)
+             option: -c[-m][-M][-d][-s][-i][-a] name, e.g., find -C Frame (regex:~"Frame.*")
+            |-c(match class name)  |-C(match class name with package)
+            |-m(match method name) |-M(match method name with package)
+            |-d(match field name)  |-i(match api method name)
+            |-s(match string)      |-a(match all[classes,methods,field and strings]
+        xref option --> search cross-reference of object
+             option(1): @type (method/class/field/string type), e.g. ,xref string@22e
+             option(2): -c[-m][-M][-d][-s][-i][-a] name(match partial), e.g. ,xref -m send
+            |-c(xref of class name)  |-s(xref of string)
+            |-m(xref of method name) |-r(xref of resource name)
+            |-f(xref of field name)  |-a(xref of all[classes,methods,field and strings]
+```
+
+
  
   ***[FAQ Summary](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA-Decompiler-FAQ-Summary)***
   
