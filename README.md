@@ -134,6 +134,7 @@ All the features as follows:
     -sh src_file      --> start a Shell
     -sv src_file port --> start a Server
     -h                --> help
+------------------------------------------------------------
   >gda.exe -h
      Usage:gda.exe [option] [apk_file] [-o output_file]
         option:
@@ -148,7 +149,15 @@ All the features as follows:
         -S referenced strings
         -c cert information
         -d decompile all code
-  >gda -sh test.apk
+------------------------------------------------------------
+
+>gda.exe -sv text.apk 12345
+    File Loading...
+    GDA Server listening on port 12345...
+
+------------------------------------------------------------
+
+>gda -sh test.apk
   >
   >
   GDA Shell >help
