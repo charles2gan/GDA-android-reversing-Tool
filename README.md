@@ -129,6 +129,8 @@ All the features as follows:
   When the analyzed jar file size is too big, it maybe takes a long time to analysize, please be patient.
   
   2.CLI mode
+
+  
   ```
   >gda.exe
     -sh src_file      --> start a Shell
@@ -155,6 +157,12 @@ All the features as follows:
     File Loading...
     GDA Server listening on port 12345...
 
+>client_gda.py help
+```
+***[client_gda.py](https://github.com/charles2gan/GDA-android-reversing-Tool/blob/master/skills/test/client_gda.py)***
+
+***[gda_skills_test.py](https://github.com/charles2gan/GDA-android-reversing-Tool/blob/master/skills/test/gda_skills_test.py)***
+```
 ------------------------------------------------------------
 
 >gda -sh test.apk
