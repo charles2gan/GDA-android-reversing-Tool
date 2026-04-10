@@ -120,7 +120,7 @@ All the features as follows:
 
 # ˇ Usage:
 
-  1.GUI mode
+  ## 1.GUI mode
   
   Just drag a file into GDA, that's done. 
   
@@ -128,7 +128,7 @@ All the features as follows:
   
   When the analyzed jar file size is too big, it maybe takes a long time to analysize, please be patient.
   
-  2.CLI mode
+  ## 2.CLI mode
 
   
   ```
@@ -161,7 +161,6 @@ All the features as follows:
 ```
 ***[client_gda.py](https://github.com/charles2gan/GDA-android-reversing-Tool/blob/master/skills/test/client_gda.py)***
 
-***[gda_skills_test.py](https://github.com/charles2gan/GDA-android-reversing-Tool/blob/master/skills/test/gda_skills_test.py)***
 ```
 ------------------------------------------------------------
 
@@ -211,8 +210,17 @@ All the features as follows:
             |-m(xref of method name) |-r(xref of resource name)
             |-f(xref of field name)  |-a(xref of all[classes,methods,field and strings]
 ```
+  ## 3.skills for LLM
+  
+  An example of skill:
+  
+  ***[gda_skills_test.py](https://github.com/charles2gan/GDA-android-reversing-Tool/blob/master/skills/test/gda_skills_test.py)***
+  
+  An example of analyzing the malware:
+  
+  ***[skill example for malware analyzing](https://github.com/charles2gan/GDA-android-reversing-Tool/blob/master/skills/mal_skill)***
 
-
+  ## 4.helper
  
   ***[FAQ Summary](https://github.com/charles2gan/GDA-android-reversing-Tool/wiki/GDA-Decompiler-FAQ-Summary)***
   
